@@ -187,3 +187,10 @@ if prompt := st.chat_input("What is up?"):
         )
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+
+st.divider()
+
+st.write('If you like this and are interested. check out mygymbro.framer.website and join the waitlist')
+st.write('Built with ❤️ by x.com/vazmeee_stfu')
+st.write('A buildspace n&w project')
