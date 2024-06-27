@@ -191,6 +191,6 @@ if prompt := st.chat_input("What is up?"):
 
 st.divider()
 
-st.write('If you like this and are interested. [join the waitlis](mygymbro.framer.website)')
+st.write('If you like this and are interested. [join the waitlist](https://mygymbro.framer.website/)')
 st.write('Built with ❤️ by [vazmeee](x.com/vazmeee_stfu)')
 st.write('A [buildspace](https://www.instagram.com/_buildspace/) n&w project')
