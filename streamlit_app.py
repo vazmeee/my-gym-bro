@@ -132,6 +132,12 @@ st.table(workouts)
 
 st.divider()
 
+st.write('If you like this and are interested. [join the waitlist](https://mygymbro.framer.website/)')
+st.write('Built with ❤️ by [vazmeee](x.com/vazmeee_stfu)')
+st.write('A [buildspace](https://www.instagram.com/_buildspace/) n&w project')
+
+st.divider()
+
 st.subheader('Workout buddy chat')
 
 
@@ -189,8 +195,3 @@ if prompt := st.chat_input("What is up?"):
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 
-st.divider()
-
-st.write('If you like this and are interested. [join the waitlist](https://mygymbro.framer.website/)')
-st.write('Built with ❤️ by [vazmeee](x.com/vazmeee_stfu)')
-st.write('A [buildspace](https://www.instagram.com/_buildspace/) n&w project')
